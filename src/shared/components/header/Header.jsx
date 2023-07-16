@@ -11,7 +11,7 @@ import {
   NavMobileItems,
 } from "./Header.style";
 import { navItems } from "./data";
-import { GiHamburgerMenu } from "react-icons/Gi";
+import { RxHamburgerMenu } from "react-icons/Rx";
 import { scrollToComp } from "../../utilities/helpers";
 
 const Header = () => {
@@ -54,7 +54,7 @@ const Header = () => {
 
         {/* NavItems for Mobile */}
         <NavMobileItems>
-          <GiHamburgerMenu
+          <RxHamburgerMenu
             size={30}
             onClick={() => setIsMobileNavOpen((prev) => !prev)}
           />
